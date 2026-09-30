@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>San Marcos | Abarrotes y cárnicos al mayoreo en Torreón</title>
+<meta name="description" content="Abarrotes, carnes frías, lácteos, desechables y cárnicos al mayoreo y menudeo en Torreón. 28 años surtiendo restaurantes, tiendas y familias." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@600;700&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet" />
+<style>
+  :root{
+    --verde:#055923;
+    --oro:#D9A91A;
+    --fondo:#F2F2F2;
+    --blanco:#FFFFFF;
+    --borde:#E2E2E2;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{
+    font-family:"Open Sans",system-ui,sans-serif;
+    font-size:17px;line-height:1.65;color:var(--verde);
+    background:var(--fondo);-webkit-font-smoothing:antialiased;
+  }
+  h1,h2,h3{font-family:"Fraunces",Georgia,serif;color:var(--verde)}
+  a{color:inherit;text-decoration:none}
+  .wrap{max-width:1100px;margin:0 auto;padding:0 20px}
+  section{padding:72px 0}
+  .alt{background:var(--blanco)}
+
+  header{position:sticky;top:0;z-index:50;background:rgba(242,242,242,.96);border-bottom:1px solid var(--borde);backdrop-filter:blur(8px)}
+  .nav{display:flex;align-items:center;justify-content:space-between;padding:16px 0}
+  .logo{display:flex;align-items:center;gap:10px;font-family:"Fraunces",serif;font-weight:700;font-size:20px}
+  .mark{width:40px;height:40px;border-radius:8px;background:var(--verde);color:#fff;display:flex;align-items:center;justify-content:center;font-size:17px}
+  .menu{display:none;gap:28px;font-size:15px;font-weight:600}
+  .btn-ghost{border:1px solid var(--verde);border-radius:8px;padding:9px 16px;font-size:14px;font-weight:600}
+  .btn-ghost:hover{background:var(--verde);color:#fff}
+
+  .btn{display:inline-flex;align-items:center;justify-content:center;background:var(--oro);color:var(--verde);font-weight:700;font-size:16px;padding:16px 28px;border-radius:8px;border:none;cursor:pointer;width:100%}
+  .btn:hover{filter:brightness(.94)}
+
+  .hero{text-align:center;max-width:720px;margin:0 auto}
+  .tag{display:inline-block;background:var(--blanco);border-radius:8px;padding:5px 12px;font-size:14px;font-weight:600;margin-bottom:20px}
+  .hero h1{font-size:36px;font-weight:700;line-height:1.15}
+  .hero p{font-size:18px;margin:20px auto 0;max-width:560px;opacity:.85}
+  .hero .btn{margin-top:32px}
+
+  .grid{display:grid;gap:22px}
+  .card{background:var(--blanco);border:1px solid var(--borde);border-radius:10px;padding:26px}
+  .card .ico{font-size:30px;display:block}
+  .card h3{font-size:24px;font-weight:600;margin-top:14px}
+  .card p{margin-top:8px;opacity:.8}
+
+  h2.sec{font-size:28px;font-weight:600;text-align:center}
+  p.sub{text-align:center;max-width:520px;margin:12px auto 0;opacity:.8}
+  .prod{background:var(--blanco);border:1px solid var(--borde);border-radius:10px;padding:24px;text-align:center;box-shadow:0 1px 2px rgba(5,89,35,.06)}
+  .prod h3{font-size:18px;font-weight:600;margin-top:10px}
+  .grid-prod{display:grid;grid-template-columns:repeat(2,1fr);gap:18px;margin-top:38px}
+
+  blockquote{opacity:.9}
+  figcaption{margin-top:18px}
+  figcaption b{display:block}
+  figcaption span{font-size:14px;opacity:.7}
+
+  dl div+div{margin-top:18px}
+  dt{font-weight:600}
+  dd{opacity:.8}
+  .redes{display:flex;gap:16px;margin-top:4px;font-weight:600}
+
+  footer{background:var(--verde);color:rgba(255,255,255,.9);font-size:14px}
+  footer .wrap{padding:28px 20px}
+
+  @media(min-width:768px){
+    .menu{display:flex}
+    section{padding:88px 0}
+    .hero h1{font-size:48px}
+    .btn{width:auto}
+    .g3{grid-template-columns:repeat(3,1fr)}
+    .grid-prod{grid-template-columns:repeat(5,1fr)}
+    .contacto{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center}
+    h2.sec{font-size:32px}
+  }
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap nav">
+    <a class="logo" href="#inicio"><span class="mark">SM</span>San Marcos</a>
+    <nav class="menu">
+      <a href="#productos">Productos</a>
+      <a href="#clientes">Clientes</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+    <a class="btn-ghost" href="#contacto">Contacto</a>
+  </div>
+</header>
+
+<section id="inicio">
+  <div class="wrap hero">
+    <p class="tag">Mayoreo y menudeo en Torreón desde 1998</p>
+    <h1>Comprar en grande te sale mejor.</h1>
+    <p>Abarrotes, carnes frías, lácteos, desechables y cárnicos para restaurantes, tiendas y familias que quieren rendir su gasto.</p>
+    <a class="btn js-wa" href="#">Cotizar por WhatsApp</a>
+  </div>
+</section>
+
+<section class="alt">
+  <div class="wrap grid g3">
+    <div class="card"><span class="ico">🏷️</span><h3>Precio de mayoreo real</h3><p>Entre más surtes, mejor te sale. Cotizamos por volumen sin vueltas ni letras chiquitas.</p></div>
+    <div class="card"><span class="ico">🤝</span><h3>Atención directa</h3><p>Hablas con quien te surte. Te decimos qué hay, qué falta y cuándo llega.</p></div>
+    <div class="card"><span class="ico">📆</span><h3>28 años en Torreón</h3><p>Desde 1998 surtiendo negocios y familias de la Comarca. Aquí seguimos.</p></div>
+  </div>
+</section>
+
+<section id="productos">
+  <div class="wrap">
+    <h2 class="sec">Lo que surtimos</h2>
+    <p class="sub">Cotizamos por categoría y por volumen. Pregunta por tu lista completa.</p>
+    <div class="grid-prod">
+      <div class="prod"><span class="ico">🥫</span><h3>Abarrotes</h3></div>
+      <div class="prod"><span class="ico">🥓</span><h3>Carnes frías</h3></div>
+      <div class="prod"><span class="ico">🥛</span><h3>Lácteos</h3></div>
+      <div class="prod"><span class="ico">🥡</span><h3>Desechables</h3></div>
+      <div class="prod"><span class="ico">🥩</span><h3>Cárnicos</h3></div>
+    </div>
+  </div>
+</section>
+
+<section id="clientes" class="alt">
+  <div class="wrap">
+    <h2 class="sec">Quienes ya se surten con nosotros</h2>
+    <div class="grid g3" style="margin-top:38px">
+      <figure class="card"><blockquote>“Surto la cocina completa con ellos. Me cumplen con el pedido y el precio me deja trabajar.”</blockquote><figcaption><b>Lorena Márquez</b><span>Restaurante, Torreón Centro</span></figcaption></figure>
+      <figure class="card"><blockquote>“Antes compraba en tres lugares. Ahora una sola parada y me rinde más el día.”</blockquote><figcaption><b>Javier Ontiveros</b><span>Tienda de abarrotes, Nueva Laguna</span></figcaption></figure>
+      <figure class="card"><blockquote>“Compro para la casa cada quince días. Lo mismo que en el súper, pero me sale menos.”</blockquote><figcaption><b>Fabiola Ramos</b><span>Cliente de menudeo</span></figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<section id="contacto">
+  <div class="wrap contacto">
+    <div>
+      <h2 class="sec" style="text-align:left">Pide tu cotización</h2>
+      <p style="margin-top:12px;opacity:.85">Mándanos tu lista por WhatsApp y te pasamos precio de mayoreo el mismo día.</p>
+      <a class="btn js-wa" href="#" style="margin-top:26px">Cotizar por WhatsApp</a>
+    </div>
+    <div class="card">
+      <dl>
+        <div><dt>Horario</dt><dd>Lunes a sábado, 8:00 a 19:00 h</dd></div>
+        <div><dt>Dónde estamos</dt><dd>Comercializadora San Marcos de la Laguna S. de R.L. de C.V.<br />Torreón, Coahuila</dd></div>
+        <div><dt>Redes</dt><dd class="redes"><a class="js-wa" href="#">WhatsApp</a><a href="#contacto">Facebook</a><a href="#contacto">Instagram</a></dd></div>
+      </dl>
+    </div>
+  </div>
+</section>
+
+<footer><div class="wrap">© <span id="year"></span> Comercializadora San Marcos de la Laguna S. de R.L. de C.V. · Torreón, Coahuila</div></footer>
+
+<script>
+  // Cambia este número por el WhatsApp real del negocio (formato: 52 + 10 dígitos)
+  var WHATSAPP = "528710000000";
+  var url = "https://wa.me/" + WHATSAPP + "?text=" + encodeURIComponent("Hola, quiero cotizar como negocio");
+  document.querySelectorAll(".js-wa").forEach(function (a) { a.href = url; });
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
